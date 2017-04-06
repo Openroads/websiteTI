@@ -346,3 +346,22 @@ a {
   color: #fff;
   text-decoration: none;
 }
+/**       FORMULARZ ****/
+.formularz{
+	
+text-align: center;
+	
+height: 600px;
+
+}
+
+
+
+form > input, form >textarea{
+	
+
+	color: dimgray;
+   
+	 border-radius: 3px;
+
+}
