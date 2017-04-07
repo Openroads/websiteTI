@@ -3,6 +3,7 @@ body
 	margin:0 auto;
 	padding: 0;
 	background-color:  #FFFFFF;
+	font-family: Arial;
 }
 .references
 {
@@ -78,8 +79,8 @@ div.logo
 }
 .menu
 {
+	height: 50px;
 	width: 100%;
-	padding: 8px 0;
 	text-align: center;
 	z-index: 100;
 	background-color: #002266;
@@ -150,6 +151,7 @@ ol
 	list-style-type: none;
 	font-size: 18px;
 	display: inline-block;
+	height: 50px;
 
 }
 ol a
@@ -168,13 +170,13 @@ ol a:active
 ol > li
 {
 	float: left;
-	padding:3px;
-	width: 100px;
-	height: 40px;
-	line-height: 40px;
+	padding: 0 20px;
+	height: 100%;
+	line-height: 2.6em;
 	border-left: 1px dashed ;
 	border-color: #003399;
 	opacity: 0.8;
+	position: relative;
 
 }
 ol > li.actual 
@@ -215,7 +217,10 @@ ol > li > ul
 	margin: 0;
 	display: none;
 	z-index: 100;
-
+	position: absolute;
+	width: 100px;
+	top: 50px;
+	left: 0;
 }
 ol > li > ul > li
 {
@@ -273,7 +278,8 @@ ol > li > ul > li:hover
 }
 .footer ol > li
 {
-	margin-top: 40px;
+
+	margin-top: 30px;
 	font-size: 14px;
 	float: left;
 	padding:1px;
