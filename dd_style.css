@@ -85,17 +85,25 @@ div.logo
 	background-color: #002266;
 	border-top: 1px solid black;
 	border-bottom:  1px solid black;
+	/*position: fixed;
+	left: 0;
+	top: 216;*/
 }
+/*.menu:hover
+{
+	position: absolute;
+}*/
+
 
 .frontFirstDiv
 {
 	width: 100%;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	/*background-color: #400000;*/
 }
 #inFrontFirstDiv
 {
-	margin: 0 auto;
+	margin: 10px auto;
 	display: block;
 	/*background-color: green;*/
 	width: 1020px;
@@ -250,7 +258,8 @@ ol > li > ul > li:hover
 .footer
 {
 	width: 100%;
-	background-color: #0f283d;
+	background-color: #142152;
+	opacity: 0.9;
 }
 #inFooter
 {
@@ -259,7 +268,20 @@ ol > li > ul > li:hover
 	color: #ffffff;
 	width: 1020px;
 	min-height: 90px;
+	font-size: 14px;
 	text-align: center;
+}
+.footer ol > li
+{
+	margin-top: 40px;
+	font-size: 14px;
+	float: left;
+	padding:1px;
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	opacity: 0.8;
+
 }
 
 /**    SLIDER **/
@@ -353,6 +375,16 @@ text-align: center;
 	
 height: 600px;
 
+}
+
+ul.unList
+{
+	list-style-type: circle;
+	
+}
+ul.unList > li 
+{
+	padding: 6px;
 }
 
 
